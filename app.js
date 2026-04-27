@@ -20,8 +20,6 @@ const preencerFormulario = async function () {
     let cidade = document.getElementById('cidade').value = dadosCep.city
     let estado = document.getElementById('estado').value = dadosCep.state
     
-    
-
 }
 
 document.getElementById('cep').addEventListener('focusout', preencerFormulario)
