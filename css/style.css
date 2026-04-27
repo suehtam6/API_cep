@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(49, 46, 46);
+    
+}
+
+.dados h1{
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    color: #fafafa;
+    
+}
+
+.container-campos{
+    display: grid;
+    grid-template-columns: 3;
+}
+
+.container-campos input{
+    width: 50dvh;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
